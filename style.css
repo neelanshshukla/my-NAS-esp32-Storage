@@ -1,0 +1,132 @@
+body
+{
+    margin: 0px;
+    background-color: rgb(17, 17, 17);
+   color:rgb(101, 187, 101);
+}
+#header
+{ 
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    text-align: center;
+    padding: 15px;
+    margin: 0px;
+    font-size:50px;
+    background-color: black;
+}
+h2
+{
+     font-family: Arial, sans-serif; 
+     background-color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    font-size: 14px;
+    color: rgb(101, 187, 101);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.upload_buttons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; 
+    margin: 40px auto;
+    padding: 25px 25px;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.8); 
+    border: 1px solid rgb(26, 26, 26);
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.hidden_input 
+{
+    display: none; 
+}
+.custom_file_btn 
+{
+    background-color: #2c2c2e; 
+    color: rgb(101, 187, 101);
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.file_name_text 
+{
+    color: rgb(101, 187, 101);
+    font-size: 14px;
+    font-family: monospace;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.upload_btn 
+{
+    background-color: rgb(101, 187, 101); 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+/* File List Section  */
+.file-list-container 
+{
+    max-width: 500px;
+    margin: 30px auto; 
+    padding: 0 20px;
+}
+
+.file-list 
+{
+    background-color: black;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.file-item 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.file-info 
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.file-details 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.file-name
+{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.download-btn
+{
+    border: none;
+    background-color: rgb(101, 187, 101);
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px; 
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
