@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MyNAS</title>
+</head>
+<body>
+           <h1 id = "header">MyNAS</h1>
+           <h2>(made by Neelansh Shukla)</h2>
+            <div class = "upload_buttons">
+                <input type="file" id="file_Input" class="hidden_input">
+                <label for="file_Input" class="custom_file_btn">Choose File</label>
+                <span id="file_name_text" class="file_name_text">No file chosen</span>
+                <button class="upload_btn">Upload</button>
+            </div>
+
+                <!-- File List Section -->
+    <div class="file-list-container">
+        
+        <div class="file-list">
+            <!-- FILE 1 -->
+            <div class="file-item">
+                <div class="file-info">
+                    <div class="file-details">
+                        <span class="file-name">class_notes.pdf</span>
+                    </div>
+                </div>
+                <button class="download-btn">Download</button>
+            </div>
+
+            <!-- FILE 2 -->
+            <div class="file-item">
+                <div class="file-info">
+                    <div class="file-details">
+                        <span class="file-name">hostel_photo.jpg</span>
+                    </div>
+                </div>
+                <button class="download-btn">Download</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
