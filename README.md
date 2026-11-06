@@ -10,4 +10,4 @@ This project aims to turn a low-power ESP32 microcontroller into a fully functio
 
 - **Frontend:** HTML5, CSS3 , Vanilla JavaScript.
 - **Backend:** C++ (Arduino IDE), `ESPAsyncWebServer`, `SD.h` library.
-- **Hardware:** ESP32, Micro SD Card Module
+- **Hardware:** ESP32, Micro SD Card Module, 8GB SD card, bread-board, jumper-wires.
